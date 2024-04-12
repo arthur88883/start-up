@@ -1,0 +1,119 @@
+@import url("banner.css");
+@import url("section.css");
+
+body { 
+    overflow-x: hidden;
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-shadow: 0px 10px 30px black;
+    background-color: white;
+    width: 65%;
+    margin: 25px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.circle {
+    width: 20%;
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+#sidebar {
+    height: 100vh;
+    width: 25%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: -22.5%;
+    box-shadow: 0px 0px 30px black;
+    transition: left 0.3s ease;
+    z-index: 20;
+}
+
+#sidebar:hover {
+    left: 0;
+}
+
+.sideContent {
+    width: calc((22.5% / 25%));
+    height: 100%;
+}
+
+.sideContent img{
+    padding: 10px;
+}
+
+.sideContent a {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* display: block; */
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.sideContent a img {
+    width: 5%;
+}
+
+.sideContent a:hover {
+    background-color: lightgray;
+}
+
+.sideContent .active {
+    background-color: lightgray;
+}
+
+.bottomLink {
+    position: absolute;
+    bottom: 0;
+}
+
+p {
+    font-size: 2em;
+    color: darkgray;
+}
+
+.showcase {
+    width: 50%;
+    border-radius: 20px;
+    border: 2px solid black
+}
+
+.button {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid darkcyan;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}

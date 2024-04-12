@@ -1,0 +1,96 @@
+section {
+    width: 50%;
+    padding: 30px 25%;
+    background-color: white;
+}
+
+.image {
+    width: 100%;
+    padding: 0px 0px;
+    height: 30vh;
+}
+
+.left img{
+    float:left;
+    border-top-right-radius: 5000px;
+    border-bottom-right-radius: 5000px;
+}
+
+.left .content{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.right img{
+    float:right;
+    border-top-left-radius: 5000px;
+    border-bottom-left-radius: 5000px;
+}
+
+.right .content{
+    float: left;
+    width: 45%;
+    padding-left: 5%;
+}
+
+.image img {
+    width: 50%;
+    height: 110%;
+    object-fit: cover;
+    object-position: 50%;
+    position: relative;
+    top:-5%;
+}
+
+.image .content {
+    float: right;
+    margin-top: 25px;
+}
+
+.bgImg {
+    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://static.vecteezy.com/system/resources/previews/006/840/393/large_2x/korean-instant-noodle-and-tteokbokki-in-korean-spicy-sauce-ancient-food-free-photo.jpg");
+}
+
+.bgImg h1 {
+    color: white;
+}
+
+.highlight {
+    background-color: cyan;
+    width: 50%;
+    padding: 30px 25%;
+}
+
+.highlight * {
+    color:black;
+}
+
+.columns {
+    width: 90%;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.columns div{
+    width: 24%;
+    display: inline-block;
+    height: 25vh;
+    vertical-align: middle;
+}
+
+.columns div:not(:last-of-type){
+    border-right: solid 2px darkgray;
+}
+
+.columns p {
+    font-size: 1.5em;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    background-color: darkgray;
+}
